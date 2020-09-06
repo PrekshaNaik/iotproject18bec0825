@@ -1,0 +1,368 @@
+
+	body {
+		padding: 1%; 
+		margin: 1%;
+	}
+
+	/* The header should have a background color, background image (using a local image), and padding */ 
+	header {
+		background: #86592d; 
+		
+		background-repeat: no-repeat;
+		background-size: 100%; 
+		padding: 1%;
+		
+	}
+
+	/* The navigation links (and only the links in the navigation) should be styled with a new display, margin, border-radius, text-decoration, and padding */
+	nav {
+		text-align: center;
+	}
+
+	nav a {
+		background-color: rgba(255,255,0,1);
+		color: #000000; /* Black */
+		display: inline-block;
+		padding: 15px;
+		margin: 20%; 
+		text-decoration: none ; 
+		border-radius: 50px; 
+	}
+
+	/* The link to the current page should be styled differently from the other links (using class = "active') */ 
+	.active {
+		background: #FF00FF;
+		color: #000000; /* Black */
+	}
+
+	/* h1 elements should be centered and have a new font color */
+	h1 {
+		color: #FFFFFF; /* White */
+		text-align: center;
+		text-transform: uppercase;
+		font-family: "Alegreya SC"; 
+		font-size: 30px;
+		position: relative;
+		top: -10px;
+	}
+
+	/* h2 elements have a new font color */
+	h2 {
+		color: #000000; /* Black */
+		text-align: center;
+		text-transform: uppercase; /* style headings to have uppercase text */
+		font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+		font-size: 19px;
+	}
+
+	/* The images should be part of the page now. In addition, they should have a border, be centered horizontally, and have vertical (top/bottom) space between them and the other images. */ 
+	
+
+	
+
+
+	/* The sections should be next to each other, not one on top of the other. */
+	.right {
+		width: 100%;
+		background: #BCFAAD;
+		text-align: center;
+		display: inline-block;
+		padding-left: 0%;
+	}
+
+	/* a elements should be centered and have a new font color and background color */
+	a {
+		font-family: Arial, Helvetica, sans-serif;
+		font-weight: bold;
+		font-size: 12px;
+	}
+
+
+	p {
+		font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;	
+		font-size: 12px;
+	}
+
+	table, td, th {
+	    border: 5px solid black;
+	    font-size: 12px; 
+	}
+	table {
+	    border-collapse: collapse;
+	}
+	th {
+	    text-align: center;
+	}
+}
+
+@media (min-width: 701px) and (max-width: 1199px) {
+	/* The body should have padding and margin */
+	body {
+		padding: 1%; 
+		margin: 1%;
+	}
+
+	/* The header should have a background color, background image (using a local image), and padding */ 
+	header {
+		background: #86592d; /*  */
+		background-image: url("../images/flywheel.jpg");
+		background-repeat: no-repeat;
+		background-size: 100%; 
+		padding: 1%;
+	}
+
+	/* The navigation links (and only the links in the navigation) should be styled with a new display, margin, border-radius, text-decoration, and padding */
+	nav {
+		text-align: center;
+	}
+
+	nav a {
+		background-color: rgba(255,255,0,1);
+		color: #000000; /* Black */
+		display: inline-block;
+		padding: 15px;
+		margin: 5%; 
+		text-decoration: none; 
+		border-radius:50px; 
+
+	}
+
+	/* The link to the current page should be styled differently from the other links (using class = "active') */ 
+	.active {
+		background: #FF00FF;
+		color: #000000; /* Black */
+	}
+
+	/* h1 elements should be centered and have a new font color */
+	h1 {
+		color: #FFFFFF; /* White */
+		text-align: center;
+		text-transform: uppercase;
+		font-family: "Alegreya SC"; 
+		font-size: 40px;
+		position: relative;
+		top: -20px;
+
+	}
+
+	/* h2 elements have a new font color */
+	h2 {
+		color: #000000; /* Black */
+		text-align: center;
+		text-transform: uppercase; /* style headings to have uppercase text */
+		font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+		font-size: 25px;
+	}
+
+	/* The images should be part of the page now. In addition, they should have a border, be centered horizontally, and have vertical (top/bottom) space between them and the other images. */ 
+	
+
+	
+
+	/* The sections should be next to each other, not one on top of the other. */
+	.right {
+		width: 100%;
+		background: #BCFAAD;
+		text-align: center;
+		display: inline-block;
+		padding-left: 0%;
+	}
+
+	/* a elements should be centered and have a new font color and background color */
+	a {
+		font-family: Arial, Helvetica, sans-serif;
+		font-weight: bold;
+		font-size: 12px;
+	}
+
+
+	p {
+		font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+		font-size: 13px;
+
+	}
+
+	table, td, th {
+	    border: 5px solid black;
+	    font-size: 12px; 
+	}
+	table {
+	    border-collapse: collapse;
+	}
+	th {
+	    text-align: center;
+	}
+}
+
+@media (min-width: 1200px) {
+	/* The body should have padding and margin */
+	body {
+		padding: 1%; 
+		margin: 1%;
+	}
+
+	/* The header should have a background color, background image (using a local image), and padding */ 
+	header {
+		background: #86592d; /* Silver */
+		
+		background-repeat: no-repeat;
+		background-size: 100%; 
+		padding: 1%;
+	}
+
+	/* The navigation links (and only the links in the navigation) should be styled with a new display, margin, border-radius, text-decoration, and padding */
+	nav {
+		text-align: center;
+	}
+
+	nav a {
+		background-color: rgba(255,255,0,1);
+		color: #000000; /* Black */
+		display: inline-block;
+		padding: 15px;
+		margin: 5%; 
+		text-decoration: none; 
+		border-radius: 50px; 
+		height: 30px; 
+		width: 120px;
+
+	}
+
+	/* The link to the current page should be styled differently from the other links (using class = "active') */ 
+	.active {
+		background: #FF00FF;
+		text-align: center;
+		color: #000000; /* Black */
+	}
+
+	/* h1 elements should be centered and have a new font color */
+	h1 {
+		color: #FFFFFF; /* White */
+		text-align: center;
+		text-transform: uppercase;
+		font-family: "Alegreya SC"; 
+		font-size: 40px;
+		position: relative;
+		top: -20px;
+
+	}
+
+	/* h2 elements have a new font color */
+	h2 {
+		color: #000000; /* Black */
+		text-align: center;
+		text-transform: uppercase; /* style headings to have uppercase text */
+		font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+		font-size: 25px;
+	}
+
+	/* The images should be part of the page now. In addition, they should have a border, be centered horizontally, and have vertical (top/bottom) space between them and the other images. */ 
+	
+
+	/* The sections should be next to each other, not one on top of the other. */
+	.right {
+		width: 100%;
+		background: #BCFAAD;
+		display: inline-block;
+		padding-left: 0%;
+	}
+
+	/* a elements should be centered and have a new font color and background color */
+	a {
+		font-family: Arial, Helvetica, sans-serif;
+		font-weight: bold;
+		font-size: 12px;
+	}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+ 
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+
+
+	p {
+		font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+		font-size: 14px;
+
+	}
+
+	table, td, th {
+	    border: 4px solid black;
+	    font-size: 12px;
+	}
+	table {
+	    border-collapse: collapse;
+	}
+	th {
+	    text-align: center;
+	}
+
+
+.button {
+  background-color: #9933ff; 
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+
+.button {
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.button1 {
+  background-color: yellow; 
+  color: black; 
+  border: 2px solid brown;
+  border-radius:30px 
+}
+
+.button1:hover {
+  background-color: yellow;
+  color: white;
+}
+
+.contacts
+{ width: 100%;
+		background: #BCFAAD;
+		display: inline-block;
+		padding-left: 0%;
+
+}
+
+
+
+
+}
